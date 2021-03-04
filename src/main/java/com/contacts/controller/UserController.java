@@ -2,6 +2,20 @@ package com.contacts.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import com.contacts.model.Post;
+import com.contacts.model.User;
+import com.contacts.model.Vote;
+import com.contacts.repository.PostRepository;
+import com.contacts.repository.UserRepository;
+import com.contacts.repository.VoteRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
+
+
+
 @RestController
 public class UserController {
     @Autowired
