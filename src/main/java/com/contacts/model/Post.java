@@ -1,6 +1,6 @@
 package com.contacts.model;
 
-package com.technews.model;
+
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sun.istack.NotNull;
