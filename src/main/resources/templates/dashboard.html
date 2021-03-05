@@ -19,7 +19,17 @@
 
         <form action="#" th:action="@{/posts}" th:object="${post}" method="post" class="new-post-form">
             <div>
-                <label for="post-title">Full names</label>
+                <label for="post-title">Full name</label>
+                <input type="text" th:field="*{title}" id="post-title" name="post-title"/>
+            </div>
+            <br>
+            <div>
+                <label for="post-title">email</label>
+                <input type="text" th:field="*{title}" id="post-title" name="post-title"/>
+            </div>
+            <br>
+            <div>
+                <label for="post-title">Address</label>
                 <input type="text" th:field="*{title}" id="post-title" name="post-title"/>
             </div>
             <div>
