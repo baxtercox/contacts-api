@@ -19,11 +19,11 @@
 
         <form action="#" th:action="@{/posts}" th:object="${post}" method="post" class="new-post-form">
             <div>
-                <label for="post-title">Title</label>
+                <label for="post-title">Full names</label>
                 <input type="text" th:field="*{title}" id="post-title" name="post-title"/>
             </div>
             <div>
-                <label for="post-url">Link</label>
+                <label for="post-url">phone number</label>
                 <input type="text" th:field="*{postUrl}" id="post-url" name="post-url"/>
             </div>
             <button type="submit" class="btn">Create</button>
